@@ -1,0 +1,4 @@
+body {
+  background: white url("background.jpg") no-repeat fixed left;
+  background-size: cover;
+}

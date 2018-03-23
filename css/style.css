@@ -1,0 +1,42 @@
+html {
+  background: url("../images/background.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+h1 {
+  margin: 2.8rem 0 -0.9rem 0;
+  background: linear-gradient(to right, #8bc34a 20%, transparent);
+  text-align: center;
+  line-height: 200%;
+}
+
+.duck {
+  height: 70px !important; /* Got to remember to fix this. */
+  position: relative;
+  animation-name: logo;
+  animation-duration: 12s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logo {
+  0% {
+    left: 0px;
+    transform: rotateY(0deg);
+  }
+  49% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    left: 300px;
+    transform: rotateY(180deg);
+  }
+  99% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    left: 0px;
+    transform: rotateY(0deg);
+  }
+}
