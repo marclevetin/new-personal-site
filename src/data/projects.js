@@ -7,7 +7,7 @@ const projects = [
     imageurl: "",
     description:
       "A virtual Yearbook for UNH Coding Bootcamp.  React, Mongo, Bootstrap 3"
-  }
+  },
   {
     id: 2,
     project: "Portsmouth Randomizer",
@@ -63,3 +63,7 @@ const projects = [
       "Node app to get the weather and wait times at Walt Disney World.  Node, Inquirer, Themeparks API, Weather JS"
   }
 ];
+
+module.exports = {
+  allTheThings: projects
+}
