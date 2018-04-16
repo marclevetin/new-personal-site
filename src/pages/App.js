@@ -14,7 +14,11 @@ const styles = theme => ({
     textAlign: "center",
     paddingTop: theme.spacing.unit * 10,
     backgroundImage: `url(${Image})`,
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    backgroundColor: 'white',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundAttachment: 'fixed'
   }
 });
 
