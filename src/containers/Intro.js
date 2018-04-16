@@ -13,8 +13,8 @@ const styles = theme => ({
     minHeight: theme.spacing.unit,
     paddingTop: theme.spacing.unit * 5,
     paddingBottom: theme.spacing.unit * 5,
-    paddingLeft: theme.spacing.unit * 30,
-    paddingRight: theme.spacing.unit * 30,
+    paddingLeft: theme.spacing.unit * 5,
+    paddingRight: theme.spacing.unit * 5,
     backgroundColor: "rgba(255,255,255,0.5)"
   }
 });
