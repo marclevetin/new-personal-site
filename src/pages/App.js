@@ -5,11 +5,16 @@ import withRoot from "../withRoot";
 
 import Navbar from '../components/Navbar';
 import AllSoftwareProjects from "../containers/AllSoftwareProjects";
+import Intro from "../containers/Intro";
+
+import Image from '../images/background.jpg';
 
 const styles = theme => ({
   root: {
     textAlign: "center",
-    paddingTop: theme.spacing.unit * 20
+    paddingTop: theme.spacing.unit * 10,
+    backgroundImage: `url(${Image})`,
+    backgroundSize: 'cover'
   }
 });
 
@@ -22,7 +27,7 @@ class App extends React.Component {
 
     return <div className={classes.root}>
         <Navbar />
-        Quack <br />
+        <Intro />
         <AllSoftwareProjects />
       </div>;
   }
