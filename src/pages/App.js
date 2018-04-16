@@ -12,7 +12,7 @@ import Image from '../images/background.jpg';
 const styles = theme => ({
   root: {
     textAlign: "center",
-    paddingTop: theme.spacing.unit * 10,
+    padding: theme.spacing.unit * 10,
     backgroundImage: `url(${Image})`,
     backgroundSize: 'cover',
     backgroundColor: 'white',

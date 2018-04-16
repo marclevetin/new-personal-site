@@ -6,11 +6,14 @@ import Grid from "material-ui/Grid";
 import SoftwareProject from "../components/SoftwareProject";
 import { allTheThings } from '../data/projects';
 
-const styles = {
+const styles = theme => ({
   root: {
     flexGrow: 1,
+  },
+  header: {
+    paddingTop: theme.spacing.unit * 10
   }
-};
+});
 
 function AllSoftwareProjects(props) {
   const { classes } = props;
@@ -28,8 +31,8 @@ function AllSoftwareProjects(props) {
   ));
 
   return <div className={classes.root}>
-      <Typography variant="headline">Software Projects</Typography>
-      <Grid container spacing={16} justify={"center"}>
+      <Typography className={classes.header} variant="display1">Software Projects</Typography>
+      <Grid container spacing={16} justify={"flex-start"} alignItems={"stretch"}>
         {things}
       </Grid>
     </div>;
