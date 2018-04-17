@@ -25,10 +25,7 @@ function ButtonAppBar(props) {
   return <div className={classes.root}>
       <AppBar position="fixed">
         <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="title" color="inherit" className={classes.flex}>
+          <Typography variant="title" color="white" className={classes.flex}>
             Marc Levetin
           </Typography>
         </Toolbar>
