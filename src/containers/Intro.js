@@ -15,7 +15,7 @@ const styles = theme => ({
     paddingBottom: theme.spacing.unit * 5,
     paddingLeft: theme.spacing.unit * 5,
     paddingRight: theme.spacing.unit * 5,
-    backgroundColor: "rgba(255,255,255,0.5)"
+    backgroundColor: "rgba(255,255,255,0.5)",
   }
 });
 
@@ -30,7 +30,7 @@ function Intro(props) {
               <Typography variant="headline" component="h3">
                 Howdy
               </Typography>
-              <Typography component="p" paragraph={true}>
+              <Typography component="p" paragraph={true} >
                 I'm a web developer with a background in product management and customer service. Right now, I'm part of the instructional team at the UNH Coding Bootcamp. This site shows off a selection of the projects I've been involved with.
               </Typography>
               <Typography variant="headline" component="h3">

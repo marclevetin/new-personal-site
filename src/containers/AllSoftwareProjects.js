@@ -21,7 +21,7 @@ function AllSoftwareProjects(props) {
   const things = allTheThings.map(project => (
     <SoftwareProject
       key={`softwareproject${project.id}`}
-      imageurl="placeholder"
+      imageurl={project.imageurl}
       imageTitle={project.project}
       headline={project.project}
       description={project.description}

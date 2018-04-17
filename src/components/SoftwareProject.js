@@ -18,10 +18,11 @@ const styles = {
 
 function SoftwareProject(props) {
   const { classes } = props;
+
   return <div className={classes.root}>
       <Grid item>
         <Card className={classes.card}>
-          <CardMedia className={classes.media} imageurl={props.imageurl} title={props.imageTitle} />
+          <CardMedia className={classes.media} image={props.imageurl} title={props.imageTitle} />
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
               {props.headline}
@@ -29,10 +30,10 @@ function SoftwareProject(props) {
             <Typography component="p">{props.description}</Typography>
           </CardContent>
           <CardActions>
-            <Button size="small" color="primary" href={props.liveURL}>
+            <Button size="small" color="primary" href={props.liveURL} target="_blank" rel="noopener noreferrer">
               Live
             </Button>
-            <Button size="small" color="primary" href={props.sourceURL}>
+            <Button size="small" color="primary" href={props.sourceURL} target="_blank" rel="noopener noreferrer">
               Source
             </Button>
           </CardActions>
