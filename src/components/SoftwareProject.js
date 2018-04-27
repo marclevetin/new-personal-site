@@ -5,6 +5,7 @@ import Card, { CardActions, CardContent, CardMedia } from "material-ui/Card";
 import Button from "material-ui/Button";
 import Typography from "material-ui/Typography";
 import Grid from "material-ui/Grid";
+import Chip from 'material-ui/Chip';
 
 const styles = {
   card: {
@@ -19,6 +20,8 @@ const styles = {
 function SoftwareProject(props) {
   const { classes } = props;
 
+  const allChips = props.tech.map((tech, index) => <Chip key={`tech${index}`} label={tech} />)
+
   return <div className={classes.root}>
       <Grid item>
         <Card className={classes.card}>
@@ -29,6 +32,7 @@ function SoftwareProject(props) {
             </Typography>
             <Typography component="p">{props.description}</Typography>
           </CardContent>
+          {allChips}
           <CardActions>
             <Button size="small" color="primary" href={props.liveURL} target="_blank" rel="noopener noreferrer">
               Live

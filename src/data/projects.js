@@ -7,7 +7,8 @@ const projects = [
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/class_superlative.png",
     description:
-      "A virtual Yearbook for UNH Coding Bootcamp.  React, Mongo, Bootstrap 3"
+      "A virtual Yearbook for UNH Coding Bootcamp.",
+    tech: ["React", "Mongo", "Bootstrap 3"]
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ const projects = [
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/randomizer.png",
     description:
-      "A collection of tools that make running the UNH Coding Bootcamp simpler.  React, Ruby, Sinatra"
+      "A collection of tools that make running the UNH Coding Bootcamp simpler.",
+    tech: ["React", "Ruby", "Sinatra"]
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ const projects = [
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/ukulele.png",
     description:
-      "Tracks ukulele collections online with pictures, instrument details, and video.  Exports collection to a popular Ukulele bulletin board.  React, Ruby on Rails, AWS S3"
+      "Tracks ukulele collections online with pictures, instrument details, and video.  Exports collection to a popular Ukulele bulletin board.",
+    tech: ["React", "Ruby on Rails", "AWS S3"]
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ const projects = [
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/dad_jokes.png",
     description:
-      "Get a random Dad Joke from an API with a click of a button or a search.  React, Materialize CSS"
+      "Get a random Dad Joke from an API with a click of a button or a search.  ",
+    tech: ["React", "Materialize CSS"]
   },
   {
     id: 5,
@@ -46,7 +50,8 @@ const projects = [
     codeurl: "https://github.com/marclevetin/hangman-game",
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/hangman.png",
-    description: "Guess the word before you spell HANGMAN.  Javascript"
+    description: "Guess the word before you spell HANGMAN.  Javascript",
+    tech: ["Javascript"]
   },
   {
     id: 6,
@@ -56,7 +61,8 @@ const projects = [
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/twitter.png",
     description:
-      "Node app that tweets out a random dad joke.  Node, Twitter, Heroku Scheduler"
+      "Node app that tweets out a random dad joke.",
+      tech: ["Node", "Twitter", "Heroku Scheduler"]
   },
   {
     id: 7,
@@ -66,7 +72,19 @@ const projects = [
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/disney.png",
     description:
-      "Node app to get the weather and wait times at Walt Disney World.  Node, Inquirer, Themeparks API, Weather JS"
+      "Node app to get the weather and wait times at Walt Disney World.",
+    tech: ["Node", "Inquirer", "Themeparks API", "Weather JS"]
+  },
+  {
+    id: 8,
+    project: "This site",
+    liveurl: "https://marclevetin.github.io/",
+    codeurl: "https://github.com/marclevetin/new-personal-site",
+    imageurl:
+      "https://s3.us-east-2.amazonaws.com/marc-biography-site/duck.jpg",
+    description:
+      "Everyone needs a personal slice of the internet.  This is mine, with a bunch of ducks.",
+    tech: ["React", "Material-UI", "AWS S3"]
   }
 ];
 
