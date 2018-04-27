@@ -74,6 +74,17 @@ const projects = [
     description:
       "Node app to get the weather and wait times at Walt Disney World.",
     tech: ["Node", "Inquirer", "Themeparks API", "Weather JS"]
+  },
+  {
+    id: 8,
+    project: "This site",
+    liveurl: "https://marclevetin.github.io/",
+    codeurl: "https://github.com/marclevetin/new-personal-site",
+    imageurl:
+      "https://s3.us-east-2.amazonaws.com/marc-biography-site/duck.jpg",
+    description:
+      "Everyone needs a personal slice of the internet.  This is mine, with a bunch of ducks.",
+    tech: ["React", "Material-UI", "AWS S3"]
   }
 ];
 
