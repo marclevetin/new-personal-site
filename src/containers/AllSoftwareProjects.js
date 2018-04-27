@@ -27,6 +27,7 @@ function AllSoftwareProjects(props) {
       description={project.description}
       liveURL={project.liveurl}
       sourceURL={project.codeurl}
+      tech={project.tech}
     />
   ));
 
