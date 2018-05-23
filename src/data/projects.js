@@ -6,8 +6,7 @@ const projects = [
     codeurl: "https://github.com/marclevetin/class-superlatives",
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/class_superlative.png",
-    description:
-      "A virtual Yearbook for UNH Coding Bootcamp.",
+    description: "A virtual Yearbook for UNH Coding Bootcamp.",
     tech: ["React", "Mongo", "Bootstrap 3"]
   },
   {
@@ -60,9 +59,8 @@ const projects = [
     codeurl: "https://github.com/marclevetin/twitter-bot-node",
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/twitter.png",
-    description:
-      "Node app that tweets out a random dad joke.",
-      tech: ["Node", "Twitter", "Heroku Scheduler"]
+    description: "Node app that tweets out a random dad joke.",
+    tech: ["Node", "Twitter", "Heroku Scheduler"]
   },
   {
     id: 7,
@@ -80,11 +78,20 @@ const projects = [
     project: "This site",
     liveurl: "https://marclevetin.github.io/",
     codeurl: "https://github.com/marclevetin/new-personal-site",
-    imageurl:
-      "https://s3.us-east-2.amazonaws.com/marc-biography-site/duck.jpg",
+    imageurl: "https://s3.us-east-2.amazonaws.com/marc-biography-site/duck.jpg",
     description:
       "Everyone needs a personal slice of the internet.  This is mine, with a bunch of ducks.",
     tech: ["React", "Material-UI", "AWS S3"]
+  },
+  {
+    id: 9,
+    project: "PHP Blackjack",
+    liveurl: "",
+    codeurl: "https://github.com/marclevetin/php-blackjack",
+    imageurl: "https://s3.us-east-2.amazonaws.com/marc-biography-site/php-blackjack.png",
+    description:
+      "I wanted to learn a bit about PHP, so I wrote a command line game.",
+    tech: ["PHP"]
   }
 ];
 
