@@ -33,7 +33,7 @@ function AllSoftwareProjects(props) {
 
   return <div className={classes.root}>
       <Typography className={classes.header} variant="display1">Software Projects</Typography>
-      <Grid container spacing={16} justify={"flex-start"} alignItems={"stretch"}>
+      <Grid container spacing={16} justify={"center"} alignItems={"stretch"}>
         {things}
       </Grid>
     </div>;
