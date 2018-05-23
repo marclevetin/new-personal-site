@@ -22,6 +22,8 @@ function SoftwareProject(props) {
 
   const allChips = props.tech.map((tech, index) => <Chip key={`tech${index}`} label={tech} />)
 
+  const disableLivedButton = (props.liveURL) ? false : true;
+
   return <div className={classes.root}>
       <Grid item>
         <Card className={classes.card}>
@@ -34,7 +36,7 @@ function SoftwareProject(props) {
           </CardContent>
           {allChips}
           <CardActions>
-            <Button size="small" color="primary" href={props.liveURL} target="_blank" rel="noopener noreferrer">
+            <Button size="small" color="primary" href={props.liveURL} target="_blank" rel="noopener noreferrer" disabled={disableLivedButton}>
               Live
             </Button>
             <Button size="small" color="primary" href={props.sourceURL} target="_blank" rel="noopener noreferrer">
