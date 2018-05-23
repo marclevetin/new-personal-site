@@ -88,10 +88,22 @@ const projects = [
     project: "PHP Blackjack",
     liveurl: "",
     codeurl: "https://github.com/marclevetin/php-blackjack",
-    imageurl: "https://s3.us-east-2.amazonaws.com/marc-biography-site/php-blackjack.png",
+    imageurl:
+      "https://s3.us-east-2.amazonaws.com/marc-biography-site/php-blackjack.png",
     description:
       "I wanted to learn a bit about PHP, so I wrote a command line game.",
     tech: ["PHP"]
+  },
+  {
+    id: 10,
+    project: "AngularJS Star Wars",
+    liveurl: "",
+    codeurl: "https://github.com/marclevetin/angularjs-star-wars",
+    imageurl:
+      "https://s3.us-east-2.amazonaws.com/marc-biography-site/angularjsstarwars.jpg",
+    description:
+      "Long ago, in a galaxy far, far away, I built a thing with AngularJS.",
+    tech: ["AngularJS", "Star Wars API"]
   }
 ];
 
