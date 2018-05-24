@@ -13,6 +13,8 @@ const styles = {
     margin: 10
   },
   media: {
+    width: 345,
+    maxWidth: 345,
     height: 200
   }
 };
@@ -21,6 +23,8 @@ function SoftwareProject(props) {
   const { classes } = props;
 
   const allChips = props.tech.map((tech, index) => <Chip key={`tech${index}`} label={tech} />)
+
+  const disableLivedButton = (props.liveURL) ? false : true;
 
   return <div className={classes.root}>
       <Grid item>
@@ -34,7 +38,7 @@ function SoftwareProject(props) {
           </CardContent>
           {allChips}
           <CardActions>
-            <Button size="small" color="primary" href={props.liveURL} target="_blank" rel="noopener noreferrer">
+            <Button size="small" color="primary" href={props.liveURL} target="_blank" rel="noopener noreferrer" disabled={disableLivedButton}>
               Live
             </Button>
             <Button size="small" color="primary" href={props.sourceURL} target="_blank" rel="noopener noreferrer">
