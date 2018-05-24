@@ -55,7 +55,7 @@ const projects = [
   {
     id: 6,
     project: "Twitter Bot",
-    liveurl: "#",
+    liveurl: "",
     codeurl: "https://github.com/marclevetin/twitter-bot-node",
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/twitter.png",
