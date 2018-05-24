@@ -1,8 +1,8 @@
 import React from "react";
-import { MuiThemeProvider, createMuiTheme } from "material-ui/styles";
-import lightGreen from "material-ui/colors/lightGreen";
-import orange from "material-ui/colors/orange";
-import CssBaseline from "material-ui/CssBaseline";
+import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import lightGreen from "@material-ui/core/colors/lightGreen";
+import orange from "@material-ui/core/colors/orange";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 // A theme with custom primary and secondary color.
 // It's optional.
