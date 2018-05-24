@@ -13,6 +13,8 @@ const styles = {
     margin: 10
   },
   media: {
+    width: 345,
+    maxWidth: 345,
     height: 200
   }
 };

@@ -16,20 +16,19 @@ const styles = theme => ({
     paddingBottom: theme.spacing.unit * 5,
     paddingLeft: theme.spacing.unit * 5,
     paddingRight: theme.spacing.unit * 5,
-    backgroundColor: "rgba(255,255,255,0.5)"
+    backgroundColor: "rgba(255,255,255,0.9)"
+  },
+  heavy: {
+    fontWeight: 'bold'
   }
 });
-
-const style = {
-  fontWeight: 'bold'
-}
 
 function Intro(props) {
   const { classes } = props;
 
   return <div className={classes.root}>
       <Grid container spacing={16} justify={"center"}>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={6}>
           <Paper className={classes.paper}>
             <Typography variant="headline" component="h3">
               Howdy
@@ -45,34 +44,25 @@ function Intro(props) {
                 LinkedIn
               </a>
             </Typography>
-            <Typography component="p" paragraph={true} style={style}>
+            <Typography component="p" paragraph={true} className={classes.heavy}>
               marc at derbyhat dot org
             </Typography>
-            
-          </Paper>
-        </Grid>
-        <Grid item xs={12} md={4}>
-          <Paper className={classes.paper}>
-            <Typography variant="headline" component="h3">
-              Why all the Rubber Ducks?
+          <Typography variant="headline" component="h3">
+            Why all the Rubber Ducks?
             </Typography>
-            <Typography component="p" paragraph={true} noWrap={false}>
-              In software engineering, <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener noreferrer">
-                rubber duck debugging
+          <Typography component="p" paragraph={true} noWrap={false}>
+            In software engineering, <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener noreferrer">
+              rubber duck debugging
               </a> or rubber ducking is a method of debugging code. The name is a reference to a story in the book The Pragmatic Programmer in which a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line-by-line, to the duck. Many other terms exist for this technique, often involving different inanimate objects.
             </Typography>
           </Paper>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={6}>
           <Paper className={classes.paper}>
             <Typography variant="headline" component="h3">
               About me
             </Typography>
-            <Typography component="p" paragraph={true}>
-              Employment history, Resume link
-            </Typography>
             <AboutMeAccordian />
-            
           </Paper>
         </Grid>
       </Grid>
