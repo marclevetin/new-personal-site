@@ -2,7 +2,7 @@
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marclevetin.github.io/",
+  "homepage": "https://marclevetin.github.io/new-personal-site",
   "dependencies": {
     "@material-ui/core": "^1.0.0",
     "@material-ui/icons": "^1.0.0-beta.42",
