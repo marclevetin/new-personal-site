@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import AboutMeAccordian from "./AboutMeAccordian";
+import Button from "@material-ui/core/Button";
 
 const styles = theme => ({
   root: {
@@ -36,17 +37,6 @@ function Intro(props) {
             <Typography component="p" paragraph={true}>
               I'm a web developer with a background in product management and customer service. Right now, I'm part of the instructional team at the UNH Coding Bootcamp. This site shows off a selection of the projects I've been involved with.
             </Typography>
-            <Typography variant="headline" component="h3">
-              Say hi
-            </Typography>
-            <Typography component="p" paragraph={true}>
-              <a href="https://www.linkedin.com/in/marclevetin/" target="_blank" rel="noopener noreferrer">
-                LinkedIn
-              </a>
-            </Typography>
-            <Typography component="p" paragraph={true} className={classes.heavy}>
-              marc at derbyhat dot org
-            </Typography>
           <Typography variant="headline" component="h3">
             Why all the Rubber Ducks?
             </Typography>
@@ -55,6 +45,15 @@ function Intro(props) {
               rubber duck debugging
               </a> or rubber ducking is a method of debugging code. The name is a reference to a story in the book The Pragmatic Programmer in which a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line-by-line, to the duck. Many other terms exist for this technique, often involving different inanimate objects.
             </Typography>
+          <Typography variant="headline" component="h3">
+            Say hi
+            </Typography>
+          <Button color="primary" className={classes.button} href="https://www.linkedin.com/in/marclevetin/">
+            LinkedIn
+            </Button>
+          <Button color="primary" className={classes.button} href="mailto:marc@derbyhat.org?subject='hi there!'">
+            Email
+            </Button>
           </Paper>
         </Grid>
         <Grid item xs={12} md={6}>
