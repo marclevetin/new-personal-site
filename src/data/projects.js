@@ -65,7 +65,7 @@ const projects = [
   {
     id: 7,
     project: "Disney API CLI",
-    liveurl: "https://portsmouth-randomizer.herokuapp.com/",
+    liveurl: "",
     codeurl: "https://github.com/marclevetin/portsmouth-randomizer",
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/disney.png",
