@@ -13,7 +13,7 @@ import Chip from "@material-ui/core/Chip";
 const styles = theme => ({
   card: {
     maxWidth: theme.spacing.unit * 40,
-    // margin: theme.spacing.unit
+    margin: 'auto'
   },
   media: {
     width: theme.spacing.unit * 40,
