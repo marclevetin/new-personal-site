@@ -10,17 +10,17 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Chip from "@material-ui/core/Chip";
 
-const styles = {
+const styles = theme => ({
   card: {
-    maxWidth: 345,
-    margin: 10
+    maxWidth: theme.spacing.unit * 40,
+    margin: 'auto'
   },
   media: {
-    width: 345,
-    maxWidth: 345,
-    height: 200
+    width: theme.spacing.unit * 40,
+    maxWidth: theme.spacing.unit * 40,
+    height: theme.spacing.unit * 25
   }
-};
+});
 
 function SoftwareProject(props) {
   const { classes } = props;
@@ -29,8 +29,8 @@ function SoftwareProject(props) {
 
   const disableLivedButton = (props.liveURL) ? false : true;
 
-  return <div className={classes.root}>
-      <Grid item>
+  return (
+      <Grid item xs={12} sm={6} md={4} lg={3} className={classes.root}>
         <Card className={classes.card}>
           <CardMedia className={classes.media} image={props.imageurl} title={props.imageTitle} />
           <CardContent>
@@ -50,7 +50,7 @@ function SoftwareProject(props) {
           </CardActions>
         </Card>
       </Grid>
-    </div>;
+  );
 }
 
 SoftwareProject.propTypes = {

@@ -29,7 +29,7 @@ function Intro(props) {
 
   return <div className={classes.root}>
       <Grid container spacing={16} justify={"center"}>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <Typography variant="headline" component="h3">
               Howdy
@@ -56,7 +56,7 @@ function Intro(props) {
             </Button>
           </Paper>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.paper}>
             <Typography variant="headline" component="h3">
               About me
