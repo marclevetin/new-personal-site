@@ -30,7 +30,7 @@ function SoftwareProject(props) {
   const disableLivedButton = (props.liveURL) ? false : true;
 
   return (
-      <Grid item xs={12} sm={6} className={classes.root}>
+      <Grid item xs={12} sm={6} md={4} lg={3} className={classes.root}>
         <Card className={classes.card}>
           <CardMedia className={classes.media} image={props.imageurl} title={props.imageTitle} />
           <CardContent>
