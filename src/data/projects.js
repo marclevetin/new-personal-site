@@ -104,6 +104,17 @@ const projects = [
     description:
       "Long ago, in a galaxy far, far away, I built a thing with AngularJS.",
     tech: ["AngularJS", "Star Wars API"]
+  },
+  {
+    id: 11,
+    project: "Crystal Collector",
+    liveurl: "https://github.com/marclevetin/crystal-collector",
+    codeurl: "https://github.com/marclevetin/crystal-collector",
+    imageurl:
+      "https://s3.us-east-2.amazonaws.com/marc-biography-site/crystal-collector.png",
+    description:
+      "Click on crystals with a random values.  Win by matching the game's target total.",
+    tech: ["jQuery"]
   }
 ];
 
