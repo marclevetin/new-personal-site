@@ -108,7 +108,7 @@ const projects = [
   {
     id: 11,
     project: "Crystal Collector",
-    liveurl: "https://github.com/marclevetin/crystal-collector",
+    liveurl: "https://marclevetin.github.io/crystal-collector/",
     codeurl: "https://github.com/marclevetin/crystal-collector",
     imageurl:
       "https://s3.us-east-2.amazonaws.com/marc-biography-site/crystal-collector.png",
